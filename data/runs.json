@@ -1,0 +1,455 @@
+{
+ "L22P16B22_r0": {
+  "mesh": "10 x 10",
+  "box": 22.0,
+  "local_channels": 8,
+  "channels_per_node": 12,
+  "h0": 0.25,
+  "hmaxc": 0.5,
+  "ptol": "1e-16",
+  "element_orders": {
+   "ab": 3,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 6,
+   "c": 6
+  },
+  "levels_computed": 1,
+  "round": 0,
+  "rounds_requested": 2,
+  "seeds": [
+   "solve_ch_P16B15_r0.pkl",
+   "solve_ch_T24B15_r0.pkl",
+   "solve_ch_LE10B22.pkl",
+   "solve_ch_LE10B22_r9.pkl"
+  ],
+  "eigensolver": "converged at iteration 24: residuals [4.8e-9]",
+  "eigensolver_tolerance": "1e-8 (JL_TOL1=1e-8, inferred from the residual at convergence)"
+ },
+ "L22P16B22_r1": {
+  "mesh": "10 x 10",
+  "box": 22.0,
+  "local_channels": 8,
+  "channels_per_node": 14,
+  "h0": 0.25,
+  "hmaxc": 0.5,
+  "ptol": "1e-16",
+  "element_orders": {
+   "ab": 3,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 6,
+   "c": 6
+  },
+  "levels_computed": 1,
+  "round": 1,
+  "rounds_requested": 2,
+  "seeds": [
+   "solve_ch_P16B15_r0.pkl",
+   "solve_ch_T24B15_r0.pkl",
+   "solve_ch_LE10B22.pkl",
+   "solve_ch_LE10B22_r9.pkl"
+  ],
+  "eigensolver": "converged at iteration 24: residuals [5.5e-9]",
+  "eigensolver_tolerance": "1e-8 (JL_TOL1=1e-8, inferred from the residual at convergence)"
+ },
+ "LE10B15": {
+  "note": "earlier run, of which no log was kept; its command is in data/README.md"
+ },
+ "N12P16B15_r0": {
+  "mesh": "12 x 12",
+  "box": 15.0,
+  "local_channels": 8,
+  "channels_per_node": 12,
+  "h0": 0.25,
+  "hmaxc": 0.5,
+  "ptol": "1e-16",
+  "element_orders": {
+   "ab": 3,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 6,
+   "c": 6
+  },
+  "levels_computed": 1,
+  "round": 0,
+  "rounds_requested": 3,
+  "seeds": [
+   "solve_ch_S12B15_r1.pkl",
+   "solve_ch_S12B15_r0.pkl",
+   "solve_ch_P16B15_r0.pkl",
+   "solve_ch_T24B15_r0.pkl"
+  ],
+  "eigensolver": "converged at iteration 17: residuals [9.1e-9]",
+  "eigensolver_tolerance": "1e-8 (JL_TOL1=1e-8, inferred from the residual at convergence)"
+ },
+ "N12P16B15_r1": {
+  "mesh": "12 x 12",
+  "box": 15.0,
+  "local_channels": 8,
+  "channels_per_node": 14,
+  "h0": 0.25,
+  "hmaxc": 0.5,
+  "ptol": "1e-16",
+  "element_orders": {
+   "ab": 3,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 6,
+   "c": 6
+  },
+  "levels_computed": 1,
+  "round": 1,
+  "rounds_requested": 3,
+  "seeds": [
+   "solve_ch_S12B15_r1.pkl",
+   "solve_ch_S12B15_r0.pkl",
+   "solve_ch_P16B15_r0.pkl",
+   "solve_ch_T24B15_r0.pkl"
+  ],
+  "eigensolver": "converged at iteration 17: residuals [5.7e-9]",
+  "eigensolver_tolerance": "1e-8 (JL_TOL1=1e-8, inferred from the residual at convergence)"
+ },
+ "P16B15_r0": {
+  "mesh": "10 x 10",
+  "box": 15.0,
+  "local_channels": 8,
+  "channels_per_node": 13,
+  "h0": 0.25,
+  "hmaxc": 0.5,
+  "ptol": "1e-16",
+  "element_orders": {
+   "ab": 3,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 6,
+   "c": 6
+  },
+  "levels_computed": 4,
+  "round": 0,
+  "rounds_requested": 2,
+  "seeds": [
+   "solve_ch_LE10B15.pkl",
+   "solve_ch_LE10B15_r9.pkl",
+   "solve_ch_LE10B15_r8.pkl",
+   "solve_ch_LE10B15_r7.pkl",
+   "solve_ch_LE10B15_r6.pkl"
+  ],
+  "eigensolver": "not logged in this run"
+ },
+ "P16B15_r1": {
+  "mesh": "10 x 10",
+  "box": 15.0,
+  "local_channels": 8,
+  "channels_per_node": 15,
+  "h0": 0.25,
+  "hmaxc": 0.5,
+  "ptol": "1e-16",
+  "element_orders": {
+   "ab": 3,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 6,
+   "c": 6
+  },
+  "levels_computed": 4,
+  "round": 1,
+  "rounds_requested": 2,
+  "seeds": [
+   "solve_ch_LE10B15.pkl",
+   "solve_ch_LE10B15_r9.pkl",
+   "solve_ch_LE10B15_r8.pkl",
+   "solve_ch_LE10B15_r7.pkl",
+   "solve_ch_LE10B15_r6.pkl"
+  ],
+  "eigensolver": "not logged in this run"
+ },
+ "Q4L22G12_r0": {
+  "mesh": "10 x 10",
+  "box": 22.0,
+  "local_channels": 8,
+  "channels_per_node": 10,
+  "h0": 0.25,
+  "hmaxc": 0.5,
+  "ptol": "1e-16",
+  "element_orders": {
+   "ab": 4,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 12,
+   "c": 6
+  },
+  "levels_computed": 4,
+  "round": 0,
+  "rounds_requested": 0,
+  "seeds": [
+   "solve_ch_Q4L22P16B22_r0.pkl",
+   "solve_ch_L22P16B22_r1.pkl"
+  ],
+  "eigensolver": "converged at iteration 20: residuals [8.3e-9, 1.1e-9, 1.8e-9, 5.7e-8]",
+  "eigensolver_tolerance": "1e-8 (JL_TOL1=1e-8, inferred from the residual at convergence)"
+ },
+ "Q4L22G16E_r0": {
+  "mesh": "10 x 10",
+  "box": 22.0,
+  "local_channels": 4,
+  "channels_per_node": 5,
+  "h0": 0.25,
+  "hmaxc": 0.5,
+  "ptol": "1e-16",
+  "element_orders": {
+   "ab": 4,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 16,
+   "c": 6
+  },
+  "levels_computed": 1,
+  "round": 0,
+  "rounds_requested": 1,
+  "seeds": [
+   "solve_ch_Q4L22P16B22_r0.pkl"
+  ],
+  "eigensolver": "converged at iteration 27: residuals [7.4e-9]",
+  "eigensolver_tolerance": "1e-8 (JL_TOL1=1e-8, inferred from the residual at convergence)"
+ },
+ "Q4L22G16E_r1": {
+  "mesh": "10 x 10",
+  "box": 22.0,
+  "local_channels": 4,
+  "channels_per_node": 7,
+  "h0": 0.25,
+  "hmaxc": 0.5,
+  "ptol": "1e-16",
+  "element_orders": {
+   "ab": 4,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 16,
+   "c": 6
+  },
+  "levels_computed": 1,
+  "round": 1,
+  "rounds_requested": 1,
+  "seeds": [
+   "solve_ch_Q4L22P16B22_r0.pkl"
+  ],
+  "eigensolver": "converged at iteration 27: residuals [9.9e-9]",
+  "eigensolver_tolerance": "1e-8 (JL_TOL1=1e-8, inferred from the residual at convergence)"
+ },
+ "Q4L22G16T24_r0": {
+  "mesh": "10 x 10",
+  "box": 22.0,
+  "local_channels": 4,
+  "channels_per_node": 6,
+  "h0": 0.25,
+  "hmaxc": 0.5,
+  "ptol": "1e-24",
+  "element_orders": {
+   "ab": 4,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 16,
+   "c": 6
+  },
+  "levels_computed": 1,
+  "round": 0,
+  "rounds_requested": 0,
+  "seeds": [
+   "solve_ch_Q4L22P16B22_r0.pkl",
+   "solve_ch_L22P16B22_r1.pkl"
+  ],
+  "eigensolver": "converged at iteration 25: residuals [5.0e-9]",
+  "eigensolver_tolerance": "1e-8 (JL_TOL1=1e-8, inferred from the residual at convergence)"
+ },
+ "Q4L22G16V25_r0": {
+  "mesh": "10 x 10",
+  "box": 22.0,
+  "local_channels": 4,
+  "channels_per_node": 5,
+  "h0": 0.25,
+  "hmaxc": 0.25,
+  "ptol": "1e-16",
+  "element_orders": {
+   "ab": 4,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 16,
+   "c": 6
+  },
+  "levels_computed": 4,
+  "round": 0,
+  "rounds_requested": 0,
+  "seeds": [
+   "solve_ch_Q4L22G16_r0.pkl"
+  ],
+  "eigensolver": "converged? stopped at iteration 80 (limit): lowest [0.0003079, 0.1741559, 0.3345208, 0.5322015], residuals [2.6e-9, 5.9e-12, 4.6e-12, 5.2e-12]",
+  "eigensolver_tolerance": "1e-10 (default), not reached: stopped at the limit of 80 iterations"
+ },
+ "Q4L22G16V35_r0": {
+  "mesh": "10 x 10",
+  "box": 22.0,
+  "local_channels": 4,
+  "channels_per_node": 5,
+  "h0": 0.25,
+  "hmaxc": 0.35,
+  "ptol": "1e-16",
+  "element_orders": {
+   "ab": 4,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 16,
+   "c": 6
+  },
+  "levels_computed": 1,
+  "round": 0,
+  "rounds_requested": 0,
+  "seeds": [
+   "solve_ch_Q4L22G16_r0.pkl"
+  ],
+  "eigensolver": "converged? stopped at iteration 80 (limit): lowest [0.0005131], residuals [1.6e-9]",
+  "eigensolver_tolerance": "1e-10 (default), not reached: stopped at the limit of 80 iterations"
+ },
+ "Q4L22G16_r0": {
+  "mesh": "10 x 10",
+  "box": 22.0,
+  "local_channels": 8,
+  "channels_per_node": 10,
+  "h0": 0.25,
+  "hmaxc": 0.5,
+  "ptol": "1e-16",
+  "element_orders": {
+   "ab": 4,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 16,
+   "c": 6
+  },
+  "levels_computed": 4,
+  "round": 0,
+  "rounds_requested": 0,
+  "seeds": [
+   "solve_ch_Q4L22P16B22_r0.pkl",
+   "solve_ch_L22P16B22_r1.pkl"
+  ],
+  "eigensolver": "converged at iteration 21: residuals [3.0e-9, 3.2e-10, 5.3e-10, 2.3e-8]",
+  "eigensolver_tolerance": "1e-8 (JL_TOL1=1e-8, inferred from the residual at convergence)"
+ },
+ "Q4N12L22G16_r0": {
+  "mesh": "12 x 12",
+  "box": 22.0,
+  "local_channels": 4,
+  "channels_per_node": 5,
+  "h0": 0.25,
+  "hmaxc": 0.5,
+  "ptol": "1e-16",
+  "element_orders": {
+   "ab": 4,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 16,
+   "c": 6
+  },
+  "levels_computed": 1,
+  "round": 0,
+  "rounds_requested": 0,
+  "seeds": [
+   "solve_ch_Q4L22G16_r0.pkl"
+  ],
+  "eigensolver": "converged? stopped at iteration 80 (limit): lowest [0.0009015], residuals [1.1e-9]",
+  "eigensolver_tolerance": "1e-10 (default), not reached: stopped at the limit of 80 iterations"
+ },
+ "Q4N12P16B15_r0": {
+  "mesh": "12 x 12",
+  "box": 15.0,
+  "local_channels": 8,
+  "channels_per_node": 10,
+  "h0": 0.25,
+  "hmaxc": 0.5,
+  "ptol": "1e-16",
+  "element_orders": {
+   "ab": 4,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 6,
+   "c": 6
+  },
+  "levels_computed": 1,
+  "round": 0,
+  "rounds_requested": 1,
+  "seeds": [
+   "solve_ch_N12P16B15_r1.pkl",
+   "solve_ch_N12P16B15_r0.pkl"
+  ],
+  "eigensolver": "converged at iteration 18: residuals [4.3e-9]",
+  "eigensolver_tolerance": "1e-8 (JL_TOL1=1e-8, inferred from the residual at convergence)"
+ },
+ "Q4P16B15_r0": {
+  "mesh": "10 x 10",
+  "box": 15.0,
+  "local_channels": 8,
+  "channels_per_node": 10,
+  "h0": 0.25,
+  "hmaxc": 0.5,
+  "ptol": "1e-16",
+  "element_orders": {
+   "ab": 4,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 6,
+   "c": 6
+  },
+  "levels_computed": 1,
+  "round": 0,
+  "rounds_requested": 2,
+  "seeds": [
+   "solve_ch_P16B15_r1.pkl",
+   "solve_ch_P16B15_r0.pkl"
+  ],
+  "eigensolver": "converged at iteration 18: residuals [5.1e-9]",
+  "eigensolver_tolerance": "1e-8 (JL_TOL1=1e-8, inferred from the residual at convergence)"
+ },
+ "T24B15_r0": {
+  "mesh": "10 x 10",
+  "box": 15.0,
+  "local_channels": 8,
+  "channels_per_node": 11,
+  "h0": 0.25,
+  "hmaxc": 0.5,
+  "ptol": "1e-24",
+  "element_orders": {
+   "ab": 3,
+   "c": 2
+  },
+  "gauss_points": {
+   "ab": 6,
+   "c": 6
+  },
+  "levels_computed": 1,
+  "round": 0,
+  "rounds_requested": 2,
+  "seeds": [
+   "solve_ch_P16B15_r0.pkl",
+   "solve_ch_LE10B15.pkl",
+   "solve_ch_LE10B15_r9.pkl"
+  ],
+  "eigensolver": "converged at iteration 17: residuals [8.1e-9]",
+  "eigensolver_tolerance": "1e-8 (JL_TOL1=1e-8, inferred from the residual at convergence)"
+ }
+}

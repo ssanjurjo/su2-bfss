@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or these data, please cite the paper below."
+title: "Numerics for 'Bound States of Two D0-Branes and the Three-Graviton Coupling'"
+type: software
+license: MIT
+authors:
+  - family-names: Sanjurjo
+    given-names: Sergio
+  - family-names: Zikopoulos
+    given-names: Themistocles
+preferred-citation:
+  type: unpublished
+  title: "Bound States of Two D0-Branes and the Three-Graviton Coupling"
+  year: 2026
+  authors:
+    - family-names: Sanjurjo
+      given-names: Sergio
+    - family-names: Zikopoulos
+      given-names: Themistocles

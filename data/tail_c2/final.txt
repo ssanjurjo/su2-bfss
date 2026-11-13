@@ -1,0 +1,18 @@
+anchor Q4L22G16V25_r0 (E_h 0.000308): 286.391  (R^-3 series fits 286.358 .. 286.404)
+
+elements along the valley (direct fits): h 0.5: E_h 0.000910, |C|^2 286.540, h 0.35: E_h 0.000513, |C|^2 286.428, h 0.25: E_h 0.000308, |C|^2 286.391
+
+shifts (differences of direct far-field fits, L_c = 22):
+  elements along the valley (full change 0.5 -> 0.25)  +0.000 +- 0.149   (0.5 -> 0.35: -0.112, 0.35 -> 0.25: -0.037; expected remainder below 0.25: -0.038 (h^2), -0.021 (h^3), -0.013 (h^4))
+  transverse mesh 10 -> 12 (valley h 0.5)           -0.003 +- 0.005   (dE_h -0.000009)
+    E_h budget of the anchor: E_h 0.000308 = valley 0.000214 (h^2 from the last step; the three meshes give h^1.8) + remainder <= 0.000094; transverse slopes d|C|^2/dE_h (L_c = 15): h 10->12 cubic -225, p 3->4 n=10 -232, h 10->12 quartic -226, p 3->4 n=12 -241
+  transverse remainder                              +0.000 +- 0.022   (E_h budget: 0.000094 x slope -231)
+  channel rounds to saturation                      +0.000 +- 0.021   (cubic L15 n=10 +0.010, cubic L15 n=12 +0.007, cubic L22 -0.009, quartic L22, 5 -> 10 channels +0.000, quartic L22, one round +0.009)
+  tolerance 1e-16 -> 1e-24 (valley h 0.5)           +0.003 +- 0.002   (dE_h -0.000022; cubic L_c = 15 window: +0.001)
+  far-field model of the anchor                     +0.000 +- 0.028   (half range of the series fits 0.023; k^2 free: 286.363 (286.237 .. 286.419), k^2/E_h = 1.014 (0.993 .. 1.068); windows ending at 13: 286.381, windows ending at 15: 286.386)
+  quadrature across the valley, 12 -> 16 points (valley h 0.5)  +0.000 +- 0.001   (direct fits differ by -0.0000)
+  profile slice quadrature                          +0.000 +- 0.020   (int P dR = 0.99999 for the anchor; 8 against 24 points on the slices of the quartic long box: 3e-6 in P)
+
+|C|^2 = 286.391 +- 0.156   (relative 0.05%)
+prediction 893025/(32 pi^4) = 286.493: difference -0.102 = -0.036% = -0.65 times the uncertainty
+quoted, with the uncertainty rounded up: |C|^2 = 286.4 +- 0.2; the prediction lies 0.5 of it away

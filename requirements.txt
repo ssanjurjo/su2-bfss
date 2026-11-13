@@ -1,0 +1,5 @@
+# Python 3.12 (tested with 3.12.9).  The large solves can also use Julia 1.11 with NPZ 0.4.3 (ground_state/jl/Project.toml).
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.9
+pytest==9.0.3
