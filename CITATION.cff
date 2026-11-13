@@ -12,6 +12,12 @@ preferred-citation:
   type: unpublished
   title: "Bound States of Two D0-Branes and the Three-Graviton Coupling"
   year: 2026
+  notes: "arXiv:2611.17325 [hep-th]"
+  url: "https://arxiv.org/abs/2611.17325"
+  identifiers:
+    - type: other
+      value: "arXiv:2611.17325"
+      description: "arXiv preprint"
   authors:
     - family-names: Sanjurjo
       given-names: Sergio

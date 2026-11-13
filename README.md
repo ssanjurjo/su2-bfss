@@ -1,6 +1,7 @@
 # Numerics for "Bound States of Two D0-Branes and the Three-Graviton Coupling"
 
-Code and small data behind the numbers, the tables and the figure of *Bound States of Two D0-Branes and the Three-Graviton Coupling* by Sergio Sanjurjo and Themistocles Zikopoulos.
+Code and small data behind the numbers, the tables and the figure of *Bound States of Two D0-Branes and the Three-Graviton Coupling* by Sergio Sanjurjo and Themistocles Zikopoulos
+([arXiv:2611.17325](https://arxiv.org/abs/2611.17325)).
 The paper solves numerically for the ground state of the SU(2) BFSS matrix model, the zero-energy bound state of two
 D0-branes, and extracts the coefficient of its power-law tail, which is the three-graviton coupling. This repository
 contains the numerics of the ground state: the reduction to the singlet sector, the finite-element solver, and the
@@ -71,6 +72,11 @@ runs the scripts of the table that need no saved state and take seconds, recompu
 profiles and compares it with `data/tail_c2/final.txt`, checks the numbers that follow directly from the shipped data
 (the peak of the density, the probability beyond `R = 4`, the virial terms), and draws the figure if LaTeX is available;
 all of it takes under a minute.
+
+## How to cite
+
+S. Sanjurjo and T. Zikopoulos, *Bound States of Two D0-Branes and the Three-Graviton Coupling*, [arXiv:2611.17325](https://arxiv.org/abs/2611.17325) [hep-th] (2026).
+`CITATION.cff` has the same in a form that citation tools read.
 
 ## License
 
